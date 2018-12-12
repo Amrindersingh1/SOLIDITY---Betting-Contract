@@ -34,13 +34,3 @@ Build a simple betting contract that rewards correct guesses of outcomes. This c
 8. Winnings are dispersed, the game is over and gamblerA and gamblerB are removed from the game
 9. User at address B withdraws the winnings they earned (260 wei) when they gambled on outcome 2
 
-## Extra Credit
-* (HARD) There can be multiple gamblers
-	* The winners receive a propotional share of the total funds at stake if they all bet on the correct outcome
-* (HARD) Each gambler can place multiple bets
-* (HARD) Set up a multi-payout system where more than one outcome yields rewards
-* There can be multiple oracles
-	* Need an odd number of oracles to break ties
-* The creater of the contract receives a fixed percentage of the winnings
-* Cap the number of bets that can be made
-* Cap the amount of time that passes after bet placement
